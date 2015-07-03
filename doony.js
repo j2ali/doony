@@ -443,6 +443,7 @@ jQuery(function($) {
         if (doonyTitleLink.parent("td").length === 0) {
             // ugh, hack
             doonyTitleLink.addClass("new-header-link");
+            doonyTitleLink.html("<div id='doony-title'>" + '<img class="wp-logo hidden-xs" src="//a.wattpad.com/img/mobile-web/wattpad_logo_280.png" width="123" height="35" alt="Wattpad">' + "</div>");
         }
     }
 
