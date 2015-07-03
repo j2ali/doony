@@ -447,8 +447,9 @@ jQuery(function($) {
         }
     }
 
-    var color = colors[Math.abs(hashCode(domain)) % colors.length];
-    $("#top-panel, #header").css('background-color', color);
+    //var color = colors[Math.abs(hashCode(domain)) % colors.length];
+    // We want wattpad colours
+    $("#top-panel, #header").css('background-color', '#FF9912');
 
     // Remove icons from the left hand menu and strip nbsp's
     $(".task").each(function() {
