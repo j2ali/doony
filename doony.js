@@ -437,7 +437,7 @@ jQuery(function($) {
     var doonyTitleLink = $('#jenkins-home-link');
     if (doonyTitleLink.length === 0) {
         doonyTitleLink = $("#top-panel a").first();
-        doonyTitleLink.html("<div id='doony-title'>" + domain + "</div>");
+        doonyTitleLink.html("<div id='doony-title'>" + '<img class="wp-logo hidden-xs" src="//a.wattpad.com/img/mobile-web/wattpad_logo_280.png" width="123" height="35" alt="Wattpad">' + "</div>");
     } else {
         doonyTitleLink.html(domain);
         if (doonyTitleLink.parent("td").length === 0) {
