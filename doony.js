@@ -525,10 +525,10 @@ jQuery(function($) {
                 wrapper.style.marginTop = "4px";
                 wrapper.style.marginLeft = "4px";
             } else {
-                dimension = this.getAttribute('width') || 12;
+                dimension = this.getAttribute('width') || 20;
             }
-            $(wrapper).css('width', dimension);
-            $(wrapper).css('height', dimension);
+            $(wrapper).css('width', 20);
+            $(wrapper).css('height', 20);
 
             $(this).after(wrapper).remove();
         });
