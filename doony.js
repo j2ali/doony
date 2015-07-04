@@ -527,8 +527,8 @@ jQuery(function($) {
             } else {
                 dimension = this.getAttribute('width') || 20;
             }
-            $(wrapper).css('width', 20);
-            $(wrapper).css('height', 20);
+            $(wrapper).css('width', 30);
+            $(wrapper).css('height', 30);
 
             $(this).after(wrapper).remove();
         });
